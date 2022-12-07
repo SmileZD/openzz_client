@@ -95,7 +95,7 @@ namespace 开源中转
                     {
                         if (!ip.EndsWith(".1"))
                         {
-                            label8.Text += "stratum+"+server_ssl+"://" + ip  + ":" + port +"\n";
+                            label8.Text += "stratum+tcp://" + ip  + ":" + port +"\n";
                         }
                     }
                 }
